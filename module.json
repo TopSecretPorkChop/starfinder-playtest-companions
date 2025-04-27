@@ -1,7 +1,7 @@
 {
   "id": "starfinder-playtest-companions",
   "title": "Starfinder 2e Playtest Companions",
-  "version": "1.0.0",
+  "version": "0.5.0",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -30,6 +30,8 @@
       }
     ]
   },
+  "url": "https://github.com/TopSecretPorkChop/starfinder-playtest-companions/",
+  "manifest": "https://github.com/TopSecretPorkChop/starfinder-playtest-companions/blob/main/module.json",
   "packFolders": [
 	{
 	   "name": "Starfinder 2e Playtest Companions",
