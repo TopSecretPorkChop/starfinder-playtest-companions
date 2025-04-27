@@ -31,7 +31,8 @@
     ]
   },
   "url": "https://github.com/TopSecretPorkChop/starfinder-playtest-companions/",
-  "manifest": "https://github.com/TopSecretPorkChop/starfinder-playtest-companions/blob/main/module.json",
+  "manifest": "https://github.com/TopSecretPorkChop/starfinder-playtest-companions/releases/tag/v0.5.0-alpha/module.json",
+  "download": "https://github.com/TopSecretPorkChop/starfinder-playtest-companions/releases/tag/v0.5.0-alpha/starfinder-playtest-companions-0.5.0-alpha.zip",
   "packFolders": [
 	{
 	   "name": "Starfinder 2e Playtest Companions",
