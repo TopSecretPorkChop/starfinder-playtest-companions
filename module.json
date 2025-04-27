@@ -1,0 +1,148 @@
+{
+  "id": "starfinder-playtest-companions",
+  "title": "Starfinder 2e Playtest Companions",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "TopSecretPorkChop",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "starfinder-field-test-for-pf2e",
+        "type": "module",
+        "compatibility": {},
+		"url": "https://github.com/TikaelSol/starfinder-field-test",
+		"manifest": "https://github.com/TikaelSol/starfinder-field-test/releases/latest/download/module.json",
+		"download": "https://github.com/TikaelSol/starfinder-field-test/releases/latest/download/starfinder-field-test-for-pf2e.zip"      }
+    ],
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packFolders": [
+	{
+	   "name": "Starfinder 2e Playtest Companions",
+	   "sorting": "m",
+	   "folders": {
+		   "name": "Character Options",
+		   "sorting": "m",
+		   "packs": [
+		     "sf-companion-ancestries",
+		     "sf-companion-equipment",
+		     "sf-companion-feats",
+		     "sf-companion-features",
+			 "sf-companion-advanced-maneuvers",
+			 "sf-companion-support-benefits"
+		   ],
+		   "folders": [],
+		   "color": "#8cccd9"		   
+	   },
+	   "packs": [
+	     "sf-companion-actions",
+		 "sf-companion-effects"
+	   ],
+	   "color": "#3a5f7e"
+	}	
+  ],
+  "packs": [
+    {
+      "name": "sf-companion-ancestries",
+      "label": "Ancestries",
+      "path": "packs/sf-companion-ancestries",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "sf-companion-support-benefits",
+      "label": "Support Benefits",
+      "path": "packs/sf-companion-support-benefits",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "sf-companion-advanced-maneuvers",
+      "label": "Advanced Maneuvers",
+      "path": "packs/sf-companion-advanced-maneuvers",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "sf-companion-feats",
+      "label": "Feats",
+      "path": "packs/sf-companion-feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "sf-companion-effects",
+      "label": "Effects",
+      "path": "packs/sf-companion-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "sf-companion-features",
+      "label": "Features",
+      "path": "packs/sf-companion-features",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "sf-companion-actions",
+      "label": "Actions",
+      "path": "packs/sf-companion-actions",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "sf-companion-equipment",
+      "label": "Equipment",
+      "path": "packs/sf-companion-equipment",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    }
+  ]
+}
